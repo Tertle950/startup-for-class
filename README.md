@@ -1,1 +1,0 @@
-# startup-for-class
