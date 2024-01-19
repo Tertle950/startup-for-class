@@ -3,14 +3,16 @@
 :phone-screen: https://github.com/Tertle950/startup-for-class/blob/main/phone-screen-mockup.png?raw=true
 
 == Elevator Pitch
+image::{big-screen}[alt=Mockup of website design on the host side,width=900,float="right"]
+image::{phone-screen}[alt=Mockup of website design on the suggester's side,width=450,float="right"]
+
 You have a problem with a lot of potential solutions, and a lot of
 people/friends/colleagues want to pitch ideas to you at once. This
 website allows all of them to pitch in ideas with their phones
-from the same website, using a "host code" system similar to Among
-Us and most Jackbox Party Pack games.
+from (a different page on) the same website, using a "host code"
+system similar to Among Us and Jackbox Party Pack games.
 
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
 
-image::{big-screen}[Mockup of website design on the host side]
-image::{phone-screen}[Mockup of website design on the suggester's side]
+Product may require a WebRTC-compatible browser.
