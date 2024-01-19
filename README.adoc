@@ -10,5 +10,5 @@ Us and most Jackbox Party Pack games.
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
 
-image::{big-screen-mockup.png}[Mockup of website design on the host side]
-image::{phone-screen-mockup.png}[Mockup of website design on the suggester's side]
+image::big-screen-mockup.png[Mockup of website design on the host side]
+image::phone-screen-mockup.png[Mockup of website design on the suggester's side]
