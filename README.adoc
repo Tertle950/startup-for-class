@@ -1,4 +1,6 @@
 = Web Startup for Class
+:big-screen: https://github.com/Tertle950/startup-for-class/blob/main/big-screen-mockup.png?raw=true
+:phone-screen: https://github.com/Tertle950/startup-for-class/blob/main/phone-screen-mockup.png?raw=true
 
 == Elevator Pitch
 You have a problem with a lot of potential solutions, and a lot of
@@ -10,5 +12,5 @@ Us and most Jackbox Party Pack games.
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
 
-image::big-screen-mockup.png[Mockup of website design on the host side]
-image::phone-screen-mockup.png[Mockup of website design on the suggester's side]
+image::{big-screen}[Mockup of website design on the host side]
+image::{phone-screen}[Mockup of website design on the suggester's side]
