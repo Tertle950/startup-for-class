@@ -19,7 +19,7 @@ This is just the HTML deliverable for now.
 
 == Technologies represented
 🔴 Not implemented yet. +
-🟡 Yellow circle is in progress. +
+🟡 In progress. +
 🟢 Fully implemented! :D
 
 - HTML
