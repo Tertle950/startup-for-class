@@ -15,4 +15,20 @@ system similar to Among Us and Jackbox Party Pack games.
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
 
-Product may require a WebRTC-compatible browser.
+This is just the HTML deliverable for now.
+
+== Technologies represented
+🔴 Not implemented yet. +
+🟡 Yellow circle is in progress. +
+🟢 Fully implemented! :D
+
+- HTML
+** 🟡 Each component of the application has an HTML page.
+** 🟢 Proper use of HTML tags.
+** 🟢 Links between pages
+** 🟢 Application textual content
+** 🟡 3rd party service calls in Profile page for themes.
+** 🔴 Application images.
+** 🟢 Login placeholder.
+** 🔴 Database data placeholder.
+** 🟢 WebSocket placeholder.
