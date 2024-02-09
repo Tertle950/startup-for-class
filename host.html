@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <title>(Host) Doctor Suggestion</title>
+    <script src="html-include.js"></script>
 </head>
 <body>
-    <div id="header"></div>
+    <div w3-include-html="header.html"></div>
     
     <div class="important">Room Code: <span id="code">ROOM_CODE</span></div>
     <div class="info">Go to <em>startup.doctorsuggestion.click/connect</em> and enter in the room code to send in your suggestions!</div>
@@ -15,5 +16,9 @@
     </ul>
 
     <button id="button_done">Done taking suggestions!</button>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML()</script>
 </body>
 </html>

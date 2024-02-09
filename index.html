@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Doctor Suggestion</title>
+    <script src="html-include.js"></script>
 </head>
 <body>
-    <div id="header"></div>
-    
-    <a class="option" href="host.html">Take suggestions</a>
-    <a class="option" href="connect.html">Give suggestions</a>
+    <div w3-include-html="header.html"></div>
+
+    <p>Welcome to Doctor Suggestion, a free webapp for taking suggestions for an audience.</p>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML()</script>
 </body>
 </html>
