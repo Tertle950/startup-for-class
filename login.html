@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>(Login) Doctor Suggestion</title>
+    <script src="html-include.js"></script>
+</head>
+<body>
+    <div w3-include-html="header.html"></div>
+
+    <div class="important">Please note that you don't need to login to use Doctor Suggestion.</div>
+
+    <p>Username is alphanumeric (underscores allowed) and must be between 4 and 64 characters.</p>
+    <p>Password must be at least 8 characters long.</p>
+
+    <form action="form-submit.html" method="post">
+        <input type="text" id="username" name="varText" placeholder="Username here" required pattern="[A-Za-z0-9_]{4,64}" />
+        <input type="password" id="password" name="varText" placeholder="Password here" required pattern=".{8,}" />
+
+        <input type="submit" value="Sign in" />
+    </form>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML()</script>
+</body>
+</html>
