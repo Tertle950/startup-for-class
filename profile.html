@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Doctor Suggestion</title>
+    <script src="html-include.js"></script>
+</head>
+<body>
+    <div w3-include-html="header.html"></div>
+
+    <div class="info">Profile page for <span id="username">USERNAME</span></div>
+    <p>Not you? <a href="logout.html">Log out</a></p>
+
+    <div id="profilepic">[pretend there's a profile picture here]</div>
+
+    <!-- I imagine most of this would be in an actual form. -->
+
+    <input type="file" id="upload_profilepic" name="upload_profilepic" accept="image/*" />
+
+    <div>
+        Theme colors:
+
+        <label for="color">Favorite color: </label>
+        <input type="color" name="uname_color" id="color" value="#5ab00f" />
+
+        <label for="color">Background color: </label>
+        <input type="color" name="bg_color" id="color" value="#ffffff" />
+
+        <label for="color">Text color: </label>
+        <input type="color" name="bg_color" id="color" value="#000000" />
+        
+        <br>
+
+        <button>Apply</button>
+        <button>Generate</button>
+        <button>Generate from profile picture</button>
+    </div>
+    <p>Generate functionality is provided by Colormind.</p>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML()</script>
+</body>
+</html>

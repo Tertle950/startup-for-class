@@ -23,12 +23,12 @@ This is just the HTML deliverable for now.
 🟢 Fully implemented! :D
 
 - HTML
-** 🟡 Each component of the application has an HTML page.
+** 🟢 Each component of the application has an HTML page.
 ** 🟢 Proper use of HTML tags.
 ** 🟢 Links between pages
 ** 🟢 Application textual content
-** 🟡 3rd party service calls in Profile page for themes.
-** 🔴 Application images.
+** 🟢 Placeholder for 3rd party service calls in Profile page for themes.
+** 🟢 Application images.
 ** 🟢 Login placeholder.
-** 🔴 Database data placeholder.
+** 🟢 Database data placeholder.
 ** 🟢 WebSocket placeholder.
