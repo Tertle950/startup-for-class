@@ -15,8 +15,6 @@ system similar to Among Us and Jackbox Party Pack games.
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
 
-This is just the HTML deliverable for now.
-
 == Technologies represented
 🔴 Not implemented yet. +
 🟡 In progress. +
