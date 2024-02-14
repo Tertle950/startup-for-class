@@ -1,11 +1,13 @@
 <header>
-    <nav class="navbar navbar-dark bg-dark">
-        <a href="index.html">Doctor Suggestion</a>
-        <ul>
-            <li><a class="login" href="login.html">Login</a></li>
-            <li><a class="option" href="host.html">Take suggestions</a></li>
-            <li><a class="option" href="connect.html">Give suggestions</a></li>
-        </ul>
+    <nav class="navbar bg-dark text-white site-header sticky-top py-2">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="navbar-brand text-white col-md-3" href="index.html"><i class="bi bi-mortarboard-fill"></i> Doctor Suggestion</a>
+
+            <a class="col-md-1 btn btn-outline-primary" href="host.html" role="button">Host</a>
+            <a class="col-md-1 btn btn-outline-primary" href="connect.html" role="button">Join</a>
+            <a class="col-md-1 btn btn-outline-light" href="login.html" role="button">Login</a>
+
+            <div class="col-md-3">Welcome, <a href="profile.html"><span id="username">USERNAME</span></a>.</div>
+        </div>
     </nav>
-    <div class="info">Welcome, <a href="profile.html"><span id="username">USERNAME</span></a>.</div>
 </header>
