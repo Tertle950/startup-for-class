@@ -9,19 +9,19 @@
 </head>
 <body>
     <div w3-include-html="header.html"></div>
+    <div class="container">
+        <div class="important">Please note that you don't need to login to use Doctor Suggestion.</div>
 
-    <div class="important">Please note that you don't need to login to use Doctor Suggestion.</div>
+        <p>Username is alphanumeric (underscores allowed) and must be between 4 and 64 characters.</p>
+        <p>Password must be at least 8 characters long.</p>
 
-    <p>Username is alphanumeric (underscores allowed) and must be between 4 and 64 characters.</p>
-    <p>Password must be at least 8 characters long.</p>
+        <form action="form-submit.html" method="post">
+            <input type="text" id="username" name="username" placeholder="Username here" required pattern="[A-Za-z0-9_]{4,64}" />
+            <input type="password" id="password" name="password" placeholder="Password here" required pattern=".{8,}" />
 
-    <form action="form-submit.html" method="post">
-        <input type="text" id="username" name="username" placeholder="Username here" required pattern="[A-Za-z0-9_]{4,64}" />
-        <input type="password" id="password" name="password" placeholder="Password here" required pattern=".{8,}" />
-
-        <input type="submit" value="Sign in" />
-    </form>
-
+            <input type="submit" value="Sign in" />
+        </form>
+    </div>
     <div w3-include-html="footer.html"></div>
 
     <script>includeHTML()</script>

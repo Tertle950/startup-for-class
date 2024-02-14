@@ -9,13 +9,13 @@
 </head>
 <body>
     <div w3-include-html="header.html"></div>
+    <div class="container">
+        <div class="info">Connected to <span id="code">ROOM_CODE</span></div>
 
-    <div class="info">Connected to <span id="code">ROOM_CODE</span></div>
-
-    <input type="text" id="text" name="suggestionText" placeholder="Suggest anything! Don't be shy!" required pattern="[Aa].*" />
-    
-    <button id="submit">Submit</button>
-
+        <input type="text" id="text" name="suggestionText" placeholder="Suggest anything! Don't be shy!" required pattern="[Aa].*" />
+        
+        <button id="submit">Submit</button>
+    </div>
     <div w3-include-html="footer.html"></div>
 
     <script>includeHTML()</script>
