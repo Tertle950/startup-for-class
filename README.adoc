@@ -34,6 +34,6 @@ still undecided, pick more than one idea and put it up to a vote.
 ** 🟡 Bootstrap!
 ** 🟢 Properly styled header and footer
 ** 🟢 Responsive to window sizing (yeah, that's Bootstrap)
-** 🟡 Properly styled application elements
+** 🟡 Properly styled application elements (there's a particularly tricky one in profile.html)
 ** 🟢 Properly styled text content
 ** 🟡 Properly styled images
