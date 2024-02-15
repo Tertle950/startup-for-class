@@ -3,9 +3,6 @@
 :phone-screen: https://github.com/Tertle950/startup-for-class/blob/main/phone-screen-mockup.png?raw=true
 
 == Elevator Pitch
-image::{big-screen}[alt=Mockup of website design on the host side,width=900,float="right"]
-image::{phone-screen}[alt=Mockup of website design on the suggester's side,width=450,float="right"]
-
 You have a problem with a lot of potential solutions, and a lot of
 people/friends/colleagues want to pitch ideas to you at once. This
 website allows all of them to pitch in ideas with their phones
@@ -14,6 +11,9 @@ system similar to Among Us and Jackbox Party Pack games.
 
 Afterward, pick any one idea you like the most...or, if you're
 still undecided, pick more than one idea and put it up to a vote.
+
+image::{big-screen}[alt=Mockup of website design on the host side,width=900,float="right"]
+image::{phone-screen}[alt=Mockup of website design on the suggester's side,width=450,float="right"]
 
 == Technologies represented in this deliverable so far...
 🔴 Not implemented yet. +
@@ -35,5 +35,5 @@ still undecided, pick more than one idea and put it up to a vote.
 ** 🟢 Properly styled header and footer
 ** 🟢 Responsive to window sizing (yeah, that's Bootstrap)
 ** 🟡 Properly styled application elements
-** 🟢 Properly styled text content
+** 🟡 Properly styled text content (host page doesn't quite match the mockup yet)
 ** 🟡 Properly styled images
