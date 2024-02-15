@@ -10,14 +10,14 @@
 <body>
     <div w3-include-html="header.html"></div>
     <div class="container">
-        <div class="important">Room Code: <span id="code">ROOM_CODE</span></div>
-        <div class="info">Go to <em>startup.doctorsuggestion.click/connect</em> and enter in the room code to send in your suggestions!</div>
-
+        <h1 class="display-4">Room Code: <span class="bg-primary p-2" id="code">ROOM_CODE</span></h1>
+        <h2 class="display-6 text-body-secondary">Go to <em>startup.doctorsuggestion.click/connect</em> and enter in the room code to send in your suggestions!</h2>
+        
         <ul id="suggestions">
             <li>Suggestions will appear here!</li>
         </ul>
 
-        <button id="button_done">Done taking suggestions!</button>
+        <button class="btn btn-primary" id="button_done">Done taking suggestions!</button>
     </div>
     <div w3-include-html="footer.html"></div>
 
