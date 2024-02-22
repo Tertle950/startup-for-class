@@ -13,12 +13,12 @@
         <div class="info">Profile page for <span id="username">USERNAME</span></div>
         <p>Not you? <a href="logout.html">Log out</a></p>
 
-        <img height="42rem" class="rounded-circle" alt="Your profile picture!" src="default-icon-red.png">
-
         <!-- I imagine most of this would be in an actual form. -->
 
         <form class="container bg-">
-            <input type="file" id="upload_profilepic" name="upload_profilepic" accept="image/*" />
+            <label for="upload_profilepic">Change profile picture: </label>
+            <img height="42rem" class="rounded-circle" alt="Your profile picture!" src="default-icon-red.png">
+            <input class="form-control" type="file" id="upload_profilepic" name="upload_profilepic" accept="image/*" />
             <br>
             <br>
 
