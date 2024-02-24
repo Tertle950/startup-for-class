@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Doctor Suggestion</title>
-    <script src="html-include.js"></script>
-    <link rel="stylesheet" href="loading-style.css">
-    <div w3-include-html="head.html"></div>
+    <script src="/html-include.js"></script>
+    <link rel="stylesheet" href="/loading-style.css">
+    <div w3-include-html="/head.html"></div>
 </head>
 <body>
-    <div w3-include-html="header.html"></div>
+    <div w3-include-html="/header.html"></div>
     <div class="container">
         <div class="info">Profile page for <span id="username">USERNAME</span></div>
         <p>Not you? <a href="profile/logout.html">Log out</a></p>
@@ -17,7 +17,7 @@
 
         <form class="container bg-">
             <label for="upload_profilepic">Change profile picture: </label>
-            <img height="42rem" class="rounded-circle" alt="Your profile picture!" src="default-icon-red.png">
+            <img height="42rem" class="rounded-circle" alt="Your profile picture!" src="/default-icon-red.png">
             <input class="form-control" type="file" id="upload_profilepic" name="upload_profilepic" accept="image/*" />
             <br>
             <br>
@@ -42,7 +42,7 @@
         </form>
         <p>Generate functionality is provided by Colormind.</p>
     </div>
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="/footer.html"></div>
 
     <script>includeHTML()</script>
 </body>
