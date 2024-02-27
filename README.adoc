@@ -37,3 +37,8 @@ image::{phone-screen}[alt=Mockup of website design on the suggester's side,width
 ** 🟡 Properly styled application elements (there's a particularly tricky one in profile.html)
 ** 🟡 Properly styled text content (host page doesn't quite match the mockup yet)
 ** 🟡 Properly styled images
+- JavaScript
+** 🔴 Login placeholder
+** 🔴 Database placeholder (requires login first!)
+** 🟢 WebSocket placeholder
+** 🟡 Interaction logic placeholder

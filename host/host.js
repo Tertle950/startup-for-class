@@ -6,4 +6,4 @@ setInterval(() => {
     suggestions.innerHTML =
       `<li>${message}</li>` +
       suggestions.innerHTML;
-  }, 5000); 
+  }, 5000);
