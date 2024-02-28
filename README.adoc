@@ -39,6 +39,11 @@ image::{phone-screen}[alt=Mockup of website design on the suggester's side,width
 ** 🟡 Properly styled images
 - JavaScript
 ** 🔴 Login placeholder
+*** 🔴 store username in local storage, don't even care about password (login)
+*** 🔴 store preferences in local storage (profile)
 ** 🔴 Database placeholder (requires login first!)
-** 🟢 WebSocket placeholder
-** 🟡 Interaction logic placeholder
+** 🟡 WebSocket/Interaction logic placeholder
+*** 🟢 fake suggestions (host)
+*** 🔴 generate random roomcode (host)
+*** 🔴 simulate connecting to room (connect)
+*** 🔴 simulate suggestion being accepted (connected)
