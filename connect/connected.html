@@ -10,11 +10,14 @@
 <body>
     <div w3-include-html="/header.html"></div>
     <div class="container">
-        <div class="info">Connected to <span id="code">ROOM_CODE</span></div>
+        <div>Connected to <span id="code">ROOM_CODE</span></div>
+        <div id="question" class="fst-italic">question</div>
+        <br>
 
-        <input type="text" id="text" name="suggestionText" placeholder="Suggest anything! Don't be shy!" required pattern="[Aa].*" />
-        
-        <button class="btn btn-primary" id="submit">Submit</button>
+        <div class="input-group">
+            <input type="text" class="form-control" id="text" name="suggestionText" placeholder="Suggest anything! Don't be shy!" required pattern="[Aa].*" />
+            <button class="btn btn-primary" id="submit">Submit</button>
+        </div>
     </div>
     <div w3-include-html="/footer.html"></div>
 

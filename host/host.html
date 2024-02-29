@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <title>(Host) Doctor Suggestion</title>
+    <meta charset="UTF-8"/>
+    <title>Doctor Suggestion</title>
     <script src="/html-include.js"></script>
     <link rel="stylesheet" href="/loading-style.css">
     <div w3-include-html="/head.html"></div>
@@ -10,17 +10,17 @@
 <body>
     <div w3-include-html="/header.html"></div>
     <div class="container">
-        <h1 class="display-4">Room Code: <span class="bg-primary text-white fw-bold p-2" id="code">ROOM_CODE</span></h1>
-        <h2 class="display-6 text-body-secondary">Go to <em>startup.doctorsuggestion.click/connect</em> and enter in the room code to send in your suggestions!</h2>
-        
-        <button class="btn btn-primary" id="button_done">Done taking suggestions!</button>
-        
-        <ul id="suggestions">
-        </ul>
+        <div class="info">What would you like suggestions for?</div>
+
+        <div class="input-group">
+            <input type="text" class="form-control" id="room_code" required pattern="[Aa].*" placeholder="What movie should we watch tonight?" />
+            <button class="btn btn-primary" id="submit">Connect</button>
+        </div>
+
+        <a href="/host/hosting.html">If this page worked, here's where it'd take you.</a>
     </div>
     <div w3-include-html="/footer.html"></div>
 
-    <script src="/host/host.js"></script>
     <script>includeHTML()</script>
 </body>
 </html>

@@ -12,9 +12,10 @@
     <div class="container">
         <div class="info">You're not connected to a room yet.</div>
 
-        <input type="text" id="room_code" required pattern="[A-Z0-9]{8}" />
-
-        <button class="btn btn-primary" id="submit">Connect</button>
+        <div class="input-group">
+            <input type="text" class="form-control" id="room_code" required pattern="[A-Z0-9]{8}" />
+            <button class="btn btn-primary" id="submit">Connect</button>
+        </div>
 
         <a href="/connect/connected.html">If this page worked, here's where it'd take you.</a>
     </div>
