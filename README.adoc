@@ -1,6 +1,9 @@
 = Web Startup for Class
+
 :big-screen: https://github.com/Tertle950/startup-for-class/blob/main/big-screen-mockup.png?raw=true
 :phone-screen: https://github.com/Tertle950/startup-for-class/blob/main/phone-screen-mockup.png?raw=true
+
+Please read the license.
 
 == Elevator Pitch
 You have a problem with a lot of potential solutions, and a lot of
@@ -31,10 +34,10 @@ image::{phone-screen}[alt=Mockup of website design on the suggester's side,width
 ** 🟢 Database data placeholder.
 ** 🟢 WebSocket placeholder.
 - CSS
-** 🟡 Bootstrap!
+** 🟢 Bootstrap!
 ** 🟢 Properly styled header and footer
 ** 🟢 Responsive to window sizing (yeah, that's Bootstrap)
-** 🟡 Properly styled application elements (there's a particularly tricky one in profile.html)
+** 🟢 Properly styled application elements (there's a particularly tricky one in profile.html)
 ** 🟡 Properly styled text content (host page doesn't quite match the mockup yet)
 ** 🟡 Properly styled images
 - JavaScript
@@ -44,6 +47,6 @@ image::{phone-screen}[alt=Mockup of website design on the suggester's side,width
 ** 🔴 Database placeholder (requires login first!)
 ** 🟡 WebSocket/Interaction logic placeholder
 *** 🟢 fake suggestions (host)
-*** 🔴 generate random roomcode (host)
+*** 🟢 generate random roomcode (host)
 *** 🔴 simulate connecting to room (connect)
 *** 🔴 simulate suggestion being accepted (connected)
